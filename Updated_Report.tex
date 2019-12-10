@@ -1,0 +1,16 @@
+\documentclass[12pt, technote]{IEEEtran}
+\title{Assignment 6 write up}
+\author{David Aarhus}
+\date{December 9, 2019}
+\begin{document}
+\maketitle
+
+\indent Runtimes for the following sorting algorithms:\\
+\indent \indent QuickSort: 0.0308991 s\\
+\indent \indent BubbleSort: 59.3915 s\\
+\indent \indent InsertSort: 10.3951 s\\
+\indent \indent SelectionSort: 17.412 s\\
+\\
+\indent The time differences were a-lot more drastic than I thought, especially the gap between bubbleSort and quickSort. When choosing sorting algorithms I feel that bubbleSort is something you'll always like to have in your back pocket when you need to sort something, but when memory or CPU usage is a concern, it is optimal to go with quickSort. insertSort and selectSort did not take as long as bubbleSort but still were nowhere near the speed and efficiency as quickSort. One thing I did notice was the the CPU usage spiked when I ran bubble, insert, and select whereas with quick it did not seem to move at all. The potential shortcomings of this empirical analysis is that when you come across larger data sets, you may have to rely on different sorting algorithms based on the data set.  
+
+\end{document}
